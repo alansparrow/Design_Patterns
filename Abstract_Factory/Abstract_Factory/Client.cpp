@@ -8,32 +8,26 @@
 using namespace std;
 
 
-Client::Client(WidgetFactory& wf) : widgetFactory{ wf } {
+Client::Client(WidgetFactory& wf) : _widgetFactory{ wf } {
 	cout << __FUNCTION__ << endl;
 
-	scrollBar = widgetFactory.CreateScrollBar();
-	window = widgetFactory.CreateWindow();
+	_scrollBar = _widgetFactory.CreateScrollBar();
+	_window = _widgetFactory.CreateWindow();
 }
 
 Client::~Client()
 {
-	if (scrollBar != nullptr)
-	{
-		delete scrollBar;
-	}
-	if (window != nullptr)
-	{
-		delete window;
-	}
+	delete _scrollBar;
+	delete _window;
 }
 
 void Client::Test() const
 {
 	cout << __FUNCTION__ << endl;
 
-	scrollBar->ScrollUp();
-	scrollBar->ScrollDown();
+	_scrollBar->ScrollUp();
+	_scrollBar->ScrollDown();
 
-	window->Maximize();
-	window->Minimize();
+	_window->Maximize();
+	_window->Minimize();
 }

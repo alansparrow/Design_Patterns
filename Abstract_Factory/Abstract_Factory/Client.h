@@ -15,8 +15,8 @@ public:
 	void Test() const;
 
 private:
-	WidgetFactory & widgetFactory;
-	ScrollBar* scrollBar;
-	Window* window;
+	WidgetFactory & _widgetFactory;
+	ScrollBar* _scrollBar;
+	Window* _window;
 };
 
