@@ -1,0 +1,3 @@
+﻿  FactoryMethod2.cpp
+d:\exp\design_patterns\factory_method\factorymethod2\factorymethod2\factorymethod2.cpp(80): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  FactoryMethod2.vcxproj -> D:\Exp\Design_Patterns\Factory_Method\FactoryMethod2\Debug\FactoryMethod2.exe
