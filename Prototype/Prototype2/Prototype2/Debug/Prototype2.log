@@ -1,0 +1,4 @@
+﻿  Prototype2.cpp
+d:\exp\design_patterns\prototype\prototype2\prototype2\prototype2.cpp(97): warning C4326: return type of 'main' should be 'int' instead of 'void'
+d:\exp\design_patterns\prototype\prototype2\prototype2\prototype2.cpp(45): warning C4715: 'Image::findAndClone': not all control paths return a value
+  Prototype2.vcxproj -> D:\Exp\Design_Patterns\Prototype\Prototype2\Debug\Prototype2.exe
